@@ -18,18 +18,16 @@ please computer | make me design
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-
 Project
 -------
 
 "please computer | make me design" was originally the source package for the
 "Screen Party" of April 22, 2010 at ESAPV Mons, proposed by Open Source
-Publishing.  "Please Computer | Design Make Me" is an introduction to the
+Publishing. "please computer | make me design" is an introduction to the
 command line through graphic design, writing and concrete poetry.  This package
 gathers reference texts, tutorials and a collection of scripts. It was created
 to facilitate collaboration, but also to be increased later on, for example
 through other workshops.
-
 
 
 Getting Started
@@ -39,10 +37,13 @@ Getting Started
 - Open a Terminal window
     - On MacOS:
       - Go to Applications/Utilities/Terminal
+    - On Ubuntu:
+      - Go to Applications/Accessories/Terminal
 - Go into your working folder (telling the path to your terminal):
     $ cd /Volumes/your-hard-drive/.../your-folder/
     (`cd` stands for 'change directory')
-      - *TIP* The TAB key allows you to auto-complete folder names and file, so you do not need to know the hard disk tree and file names by heart!
+      - *TIP* The TAB key allows you to auto-complete folder names and file, so
+        you do not need to know the hard disk tree and file names by heart!
 - Go to the 'scripts' folder in the "PleaseMakeMeDesign" package 
     $ cd pleasemakemedesign/scripts
 
@@ -65,8 +66,9 @@ Alternative way (Avoid writing the whole path by hand)
 Tips
 ----
 
-- `../` means higher folder
+- `../` means higher directory in the filesystem hierarchy
 - type `-h` or `--help` after the name of a program allows to view the help text
+- type `man program-name` to read the manual for this program
 
 
 Experiment
@@ -80,7 +82,7 @@ file is deleted directly without going through the trash !).  The command `>`
 saves the output in a file.
 
 - To call a file located in a subfolder, type :
-    $ mon-dossier/mon-fichier.txt
+    $ my-directory/my-file.txt
 - To call a file in a folder above, type :
     $ ../my-file.txt
 
